@@ -44,4 +44,5 @@ jobs:
           # Builder instance
           builder: Dockerfile
           file: $GITHUB_WORKSPACE/x64/
+          context: $GITHUB_WORKSPACE/x64/
       
