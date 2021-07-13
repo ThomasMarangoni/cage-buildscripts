@@ -42,5 +42,5 @@ jobs:
         uses: docker/build-push-action@v2.6.1
         with:
           # Builder instance
-          builder: $GITHUB_WORKSPACE/x64/Dockerfile
+          builder: Dockerfile
       
